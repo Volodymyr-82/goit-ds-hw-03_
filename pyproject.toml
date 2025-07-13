@@ -1,0 +1,19 @@
+[project]
+name = "dz3-morhun-volodymyr"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Volodymyr Morhun",email = "your.email@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pymongo[srv,tls] (>=4.13.2,<5.0.0)",
+    "mongoengine (>=0.29.1,<0.30.0)",
+    "pydantic (>=2.11.7,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
